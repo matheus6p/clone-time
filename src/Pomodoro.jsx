@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 export default function Pomodoro() {
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(5);
+  const [minutes, setMinutes] = useState(25);
+  const [seconds, setSeconds] = useState(0);
   const [displayMessage, setDisplayMessage] = useState(false);
 
   useEffect(() => {
